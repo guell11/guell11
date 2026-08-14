@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="980" viewBox="0 0 1200 980">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#09090a"/>
+    <stop offset="1" stop-color="#050506"/>
+  </linearGradient>
+  <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(945 205) rotate(90) scale(260)">
+    <stop stop-color="#ffffff" stop-opacity=".065"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(270 720) rotate(90) scale(230)">
+    <stop stop-color="#ffffff" stop-opacity=".025"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+
+<rect width="1200" height="980" rx="30" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="978" rx="29" fill="none" stroke="#fff" stroke-opacity=".11"/>
+<rect width="1200" height="980" rx="30" fill="url(#glow1)"/>
+<rect width="1200" height="980" rx="30" fill="url(#glow2)"/>
+
+<!-- subtle grid -->
+<g stroke="#fff" stroke-opacity=".028">
+  <path d="M0 98H1200M0 196H1200M0 294H1200M0 392H1200M0 490H1200M0 588H1200M0 686H1200M0 784H1200M0 882H1200"/>
+  <path d="M120 0V980M240 0V980M360 0V980M480 0V980M600 0V980M720 0V980M840 0V980M960 0V980M1080 0V980"/>
+</g>
+
+<!-- top identity -->
+<text x="58" y="58" fill="#676870" font-family="monospace" font-size="11" letter-spacing="2.2">MIGUEL PENHA REIS  /  AI ENGINEER + RESEARCHER</text>
+<text x="1142" y="58" text-anchor="end" fill="#4e4f55" font-family="monospace" font-size="10" letter-spacing="1.6">BRAZIL  /  2026</text>
+<line x1="58" y1="82" x2="1142" y2="82" stroke="#fff" stroke-opacity=".09"/>
+
+<!-- main statement -->
+<text x="58" y="180" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" letter-spacing="-4">I build AI systems</text>
+<text x="58" y="252" fill="#777880" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" letter-spacing="-4">from the model weights</text>
+<text x="58" y="324" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="72" font-weight="700" letter-spacing="-4">to the interface.</text>
+
+<!-- orbital identity visual -->
+<g transform="translate(975 228)">
+  <circle r="124" fill="none" stroke="#fff" stroke-opacity=".075"/>
+  <circle r="92" fill="none" stroke="#fff" stroke-opacity=".10"/>
+  <circle r="60" fill="none" stroke="#fff" stroke-opacity=".13"/>
+  <circle r="28" fill="#0a0a0b" stroke="#fff" stroke-opacity=".16"/>
+  <text x="0" y="4" text-anchor="middle" fill="#ececef" font-family="monospace" font-size="11">MPR</text>
+  <circle cx="-86" cy="-52" r="3" fill="#fff" fill-opacity=".72"/>
+  <circle cx="88" cy="34" r="2.6" fill="#fff" fill-opacity=".40"/>
+  <circle cx="-57" cy="103" r="2.5" fill="#fff" fill-opacity=".50"/>
+  <circle cx="34" cy="-112" r="2" fill="#fff" fill-opacity=".28"/>
+  <path d="M-86 -52C-30 -104 58 -75 88 34" fill="none" stroke="#fff" stroke-opacity=".08" stroke-dasharray="4 7"/>
+</g>
+
+<!-- intro -->
+<text x="60" y="390" fill="#a1a2a8" font-family="Arial,Helvetica,sans-serif" font-size="17">
+  I research and engineer language models, latent reasoning architectures, multimodal AI
+</text>
+<text x="60" y="420" fill="#a1a2a8" font-family="Arial,Helvetica,sans-serif" font-size="17">
+  and software systems. My work moves between fundamental AI research and practical engineering.
+</text>
+
+<!-- focus row -->
+<line x1="58" y1="462" x2="1142" y2="462" stroke="#fff" stroke-opacity=".08"/>
+<text x="58" y="492" fill="#66676e" font-family="monospace" font-size="10" letter-spacing="1.7">CURRENT FOCUS</text>
+<text x="205" y="492" fill="#b7b8be" font-family="monospace" font-size="10">LLMs</text>
+<text x="278" y="492" fill="#55565d" font-family="monospace" font-size="10">/</text>
+<text x="308" y="492" fill="#b7b8be" font-family="monospace" font-size="10">LATENT REASONING</text>
+<text x="450" y="492" fill="#55565d" font-family="monospace" font-size="10">/</text>
+<text x="480" y="492" fill="#b7b8be" font-family="monospace" font-size="10">MULTIMODAL AI</text>
+<text x="600" y="492" fill="#55565d" font-family="monospace" font-size="10">/</text>
+<text x="630" y="492" fill="#b7b8be" font-family="monospace" font-size="10">LOCAL AI</text>
+<text x="706" y="492" fill="#55565d" font-family="monospace" font-size="10">/</text>
+<text x="736" y="492" fill="#b7b8be" font-family="monospace" font-size="10">RETRIEVAL</text>
+<text x="820" y="492" fill="#55565d" font-family="monospace" font-size="10">/</text>
+<text x="850" y="492" fill="#b7b8be" font-family="monospace" font-size="10">AI SYSTEMS</text>
+<line x1="58" y1="514" x2="1142" y2="514" stroke="#fff" stroke-opacity=".08"/>
+
+<!-- about / philosophy -->
+<text x="58" y="572" fill="#66676e" font-family="monospace" font-size="11" letter-spacing="2">ABOUT</text>
+<text x="58" y="624" fill="#f0f0f2" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700">I care about understanding how intelligent systems work,</text>
+<text x="58" y="657" fill="#f0f0f2" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700">not just making them produce convincing outputs.</text>
+
+<text x="58" y="708" fill="#96979e" font-family="Arial,Helvetica,sans-serif" font-size="16">
+  That means moving between model behavior, training, inference, architecture, memory,
+</text>
+<text x="58" y="737" fill="#96979e" font-family="Arial,Helvetica,sans-serif" font-size="16">
+  interfaces and the systems required to turn research ideas into usable software.
+</text>
+
+<!-- right side philosophy blocks -->
+<line x1="760" y1="548" x2="760" y2="770" stroke="#fff" stroke-opacity=".08"/>
+<text x="800" y="580" fill="#66676e" font-family="monospace" font-size="10" letter-spacing="1.7">ENGINEERING PRINCIPLES</text>
+
+<text x="800" y="626" fill="#e7e7ea" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">Research before claims.</text>
+<text x="800" y="651" fill="#8f9097" font-family="Arial,Helvetica,sans-serif" font-size="14">Baselines, ablations and reproducibility matter.</text>
+
+<text x="800" y="696" fill="#e7e7ea" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">Systems matter too.</text>
+<text x="800" y="721" fill="#8f9097" font-family="Arial,Helvetica,sans-serif" font-size="14">The model is only one layer of the product.</text>
+
+<text x="800" y="766" fill="#e7e7ea" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700">Local-first when possible.</text>
+
+<!-- stack -->
+<line x1="58" y1="808" x2="1142" y2="808" stroke="#fff" stroke-opacity=".08"/>
+<text x="58" y="842" fill="#66676e" font-family="monospace" font-size="10" letter-spacing="1.7">STACK</text>
+<text x="58" y="878" fill="#dedee2" font-family="Arial,Helvetica,sans-serif" font-size="17">
+  Python · PyTorch · Transformers · FastAPI · Flask · React · Three.js · SQLite · CUDA
+</text>
+<text x="58" y="908" fill="#8e8f96" font-family="Arial,Helvetica,sans-serif" font-size="15">
+  Gemma · Qwen · GGUF · llama.cpp · RAG · quantization · multimodal systems · local inference
+</text>
+
+<!-- footer statement -->
+<line x1="58" y1="938" x2="1142" y2="938" stroke="#fff" stroke-opacity=".08"/>
+<text x="58" y="965" fill="#d8d8dc" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700">
+  Build the model. Build the system. Understand both.
+</text>
+<text x="1142" y="965" text-anchor="end" fill="#686970" font-family="monospace" font-size="10">
+  PORTFOLIO  ↗  /  HUGGING FACE  ↗  /  GITHUB  ↗
+</text>
+</svg>

@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b0c0f"/>
+    <stop offset="1" stop-color="#060607"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111319"/>
+    <stop offset="1" stop-color="#0a0b0e"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 110) rotate(90) scale(220)">
+    <stop stop-color="#7dd3fc" stop-opacity=".10"/>
+    <stop offset=".45" stop-color="#a78bfa" stop-opacity=".045"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#7dd3fc" stop-opacity=".95"/>
+    <stop offset=".52" stop-color="#a78bfa" stop-opacity=".82"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity=".75"/>
+  </linearGradient>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+</defs>
+
+
+<rect width="1200" height="260" rx="30" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="258" rx="29" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+<rect width="1200" height="260" rx="30" fill="url(#glow)"/>
+<g stroke="#fff" stroke-opacity=".022">
+  <path d="M0 60H1200"/><path d="M0 120H1200"/><path d="M0 180H1200"/><path d="M0 240H1200"/>
+  <path d="M60 0V260"/><path d="M120 0V260"/><path d="M180 0V260"/><path d="M240 0V260"/><path d="M300 0V260"/><path d="M360 0V260"/><path d="M420 0V260"/><path d="M480 0V260"/><path d="M540 0V260"/><path d="M600 0V260"/><path d="M660 0V260"/><path d="M720 0V260"/><path d="M780 0V260"/><path d="M840 0V260"/><path d="M900 0V260"/><path d="M960 0V260"/><path d="M1020 0V260"/><path d="M1080 0V260"/><path d="M1140 0V260"/>
+</g>
+
+<text x="48" y="48" fill="#686a73" font-family="ui-monospace,Consolas,monospace" font-size="11" letter-spacing="2">06 / CURRENT SIGNAL</text>
+<line x1="48" y1="68" x2="1152" y2="68" stroke="#fff" stroke-opacity=".08"/>
+
+<text x="600" y="128" text-anchor="middle" fill="#e8e8eb" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="600" letter-spacing="-1">LATENT REASONING  /  LOCAL AI</text>
+<text x="600" y="163" text-anchor="middle" fill="#888a92" font-family="ui-monospace,Consolas,monospace" font-size="11" letter-spacing="1.4">MODEL BEHAVIOR / SYSTEMS ENGINEERING / RESEARCH → IMPLEMENTATION → PRODUCT</text>
+
+<g font-family="ui-monospace,Consolas,monospace" font-size="9" fill="#9c9da4">
+  <rect x="300" y="194" width="126" height="28" rx="14" fill="#fff" fill-opacity=".03" stroke="#fff" stroke-opacity=".08"/>
+  <text x="363" y="212" text-anchor="middle">AI RESEARCH</text>
+  <rect x="438" y="194" width="90" height="28" rx="14" fill="#fff" fill-opacity=".03" stroke="#fff" stroke-opacity=".08"/>
+  <text x="483" y="212" text-anchor="middle">LLMs</text>
+  <rect x="540" y="194" width="150" height="28" rx="14" fill="#fff" fill-opacity=".03" stroke="#fff" stroke-opacity=".08"/>
+  <text x="615" y="212" text-anchor="middle">LATENT REASONING</text>
+  <rect x="702" y="194" width="164" height="28" rx="14" fill="#fff" fill-opacity=".03" stroke="#fff" stroke-opacity=".08"/>
+  <text x="784" y="212" text-anchor="middle">SOFTWARE SYSTEMS</text>
+</g>
+</svg>

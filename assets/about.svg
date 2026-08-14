@@ -1,14 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250">
-<rect width="1200" height="250" rx="24" fill="#080809"/>
-<rect x="1" y="1" width="1198" height="248" rx="23" fill="none" stroke="#fff" stroke-opacity=".10"/>
-<text x="48" y="52" fill="#686970" font-family="monospace" font-size="11" letter-spacing="2">02 / ABOUT</text>
-<text x="48" y="105" fill="#f2f2f4" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700">Miguel Penha Reis</text>
-<text x="48" y="145" fill="#92939a" font-family="Arial,Helvetica,sans-serif" font-size="16">AI engineer and researcher working across language models, latent reasoning,</text>
-<text x="48" y="174" fill="#92939a" font-family="Arial,Helvetica,sans-serif" font-size="16">multimodal AI, local inference and complete software systems.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="310" viewBox="0 0 1200 310">
 
-<line x1="665" y1="38" x2="665" y2="212" stroke="#fff" stroke-opacity=".08"/>
-<text x="706" y="66" fill="#6d6e75" font-family="monospace" font-size="10" letter-spacing="1.4">CURRENT FIELD</text>
-<text x="706" y="108" fill="#d9d9dd" font-family="Arial,Helvetica,sans-serif" font-size="15">LLMs  ·  Latent Reasoning  ·  Multimodal AI</text>
-<text x="706" y="142" fill="#d9d9dd" font-family="Arial,Helvetica,sans-serif" font-size="15">Local AI  ·  Retrieval  ·  AI Infrastructure</text>
-<text x="706" y="190" fill="#8a8b92" font-family="Arial,Helvetica,sans-serif" font-size="14">Build the model. Build the system. Understand both.</text>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b0c0f"/>
+    <stop offset="1" stop-color="#060607"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111319"/>
+    <stop offset="1" stop-color="#0a0b0e"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 110) rotate(90) scale(220)">
+    <stop stop-color="#7dd3fc" stop-opacity=".10"/>
+    <stop offset=".45" stop-color="#a78bfa" stop-opacity=".045"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#7dd3fc" stop-opacity=".95"/>
+    <stop offset=".52" stop-color="#a78bfa" stop-opacity=".82"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity=".75"/>
+  </linearGradient>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+</defs>
+
+
+<rect width="1200" height="310" rx="30" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="308" rx="29" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+<rect width="1200" height="310" rx="30" fill="url(#glow)"/>
+<g stroke="#fff" stroke-opacity=".022">
+  <path d="M0 60H1200"/><path d="M0 120H1200"/><path d="M0 180H1200"/><path d="M0 240H1200"/><path d="M0 300H1200"/>
+  <path d="M60 0V310"/><path d="M120 0V310"/><path d="M180 0V310"/><path d="M240 0V310"/><path d="M300 0V310"/><path d="M360 0V310"/><path d="M420 0V310"/><path d="M480 0V310"/><path d="M540 0V310"/><path d="M600 0V310"/><path d="M660 0V310"/><path d="M720 0V310"/><path d="M780 0V310"/><path d="M840 0V310"/><path d="M900 0V310"/><path d="M960 0V310"/><path d="M1020 0V310"/><path d="M1080 0V310"/><path d="M1140 0V310"/>
+</g>
+
+<text x="48" y="48" fill="#686a73" font-family="ui-monospace,Consolas,monospace" font-size="11" letter-spacing="2">01 / ABOUT</text>
+<line x1="48" y1="68" x2="1152" y2="68" stroke="#fff" stroke-opacity=".08"/>
+
+<text x="48" y="124" fill="#f0f0f2" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="700">I build both the model and the system around it.</text>
+<text x="48" y="166" fill="#9899a1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">AI engineer and researcher from Brazil, moving between model research</text>
+<text x="48" y="194" fill="#9899a1" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16">and practical systems engineering.</text>
+
+<line x1="720" y1="100" x2="720" y2="255" stroke="#fff" stroke-opacity=".08"/>
+
+<text x="758" y="120" fill="#666872" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.5">CURRENT FIELD</text>
+<g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#d7d7db">
+  <text x="758" y="158">Large Language Models</text>
+  <text x="758" y="188">Latent Reasoning</text>
+  <text x="758" y="218">Multimodal + Local AI</text>
+</g>
+<g stroke="url(#accent)" stroke-width="2">
+  <path d="M740 154h8M740 184h8M740 214h8"/>
+</g>
+
+<rect x="48" y="238" width="592" height="40" rx="12" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".08"/>
+<text x="66" y="263" fill="#b2b3b9" font-family="ui-monospace,Consolas,monospace" font-size="11">BUILD THE MODEL. BUILD THE SYSTEM. UNDERSTAND BOTH.</text>
 </svg>

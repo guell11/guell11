@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="390" viewBox="0 0 1200 390">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b0c0f"/>
+    <stop offset="1" stop-color="#060607"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111319"/>
+    <stop offset="1" stop-color="#0a0b0e"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 110) rotate(90) scale(220)">
+    <stop stop-color="#7dd3fc" stop-opacity=".10"/>
+    <stop offset=".45" stop-color="#a78bfa" stop-opacity=".045"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#7dd3fc" stop-opacity=".95"/>
+    <stop offset=".52" stop-color="#a78bfa" stop-opacity=".82"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity=".75"/>
+  </linearGradient>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+</defs>
+
+
+<rect width="1200" height="390" rx="30" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="388" rx="29" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+<rect width="1200" height="390" rx="30" fill="url(#glow)"/>
+<g stroke="#fff" stroke-opacity=".022">
+  <path d="M0 60H1200"/><path d="M0 120H1200"/><path d="M0 180H1200"/><path d="M0 240H1200"/><path d="M0 300H1200"/><path d="M0 360H1200"/>
+  <path d="M60 0V390"/><path d="M120 0V390"/><path d="M180 0V390"/><path d="M240 0V390"/><path d="M300 0V390"/><path d="M360 0V390"/><path d="M420 0V390"/><path d="M480 0V390"/><path d="M540 0V390"/><path d="M600 0V390"/><path d="M660 0V390"/><path d="M720 0V390"/><path d="M780 0V390"/><path d="M840 0V390"/><path d="M900 0V390"/><path d="M960 0V390"/><path d="M1020 0V390"/><path d="M1080 0V390"/><path d="M1140 0V390"/>
+</g>
+
+<text x="48" y="48" fill="#686a73" font-family="ui-monospace,Consolas,monospace" font-size="11" letter-spacing="2">02 / FIELD</text>
+<line x1="48" y1="68" x2="1152" y2="68" stroke="#fff" stroke-opacity=".08"/>
+
+<!-- top chips -->
+<g font-family="ui-monospace,Consolas,monospace" font-size="9" fill="#aeb0b7">
+  <rect x="48" y="92" width="184" height="30" rx="15" fill="#fff" fill-opacity=".028" stroke="#fff" stroke-opacity=".08"/>
+  <text x="140" y="111" text-anchor="middle">LARGE LANGUAGE MODELS</text>
+  <rect x="242" y="92" width="154" height="30" rx="15" fill="#fff" fill-opacity=".028" stroke="#fff" stroke-opacity=".08"/>
+  <text x="319" y="111" text-anchor="middle">LATENT REASONING</text>
+  <rect x="406" y="92" width="140" height="30" rx="15" fill="#fff" fill-opacity=".028" stroke="#fff" stroke-opacity=".08"/>
+  <text x="476" y="111" text-anchor="middle">MULTIMODAL AI</text>
+  <rect x="556" y="92" width="92" height="30" rx="15" fill="#fff" fill-opacity=".028" stroke="#fff" stroke-opacity=".08"/>
+  <text x="602" y="111" text-anchor="middle">LOCAL AI</text>
+  <rect x="658" y="92" width="110" height="30" rx="15" fill="#fff" fill-opacity=".028" stroke="#fff" stroke-opacity=".08"/>
+  <text x="713" y="111" text-anchor="middle">RAG SYSTEMS</text>
+  <rect x="778" y="92" width="154" height="30" rx="15" fill="#fff" fill-opacity=".028" stroke="#fff" stroke-opacity=".08"/>
+  <text x="855" y="111" text-anchor="middle">MODEL ENGINEERING</text>
+</g>
+
+<!-- 3 cards -->
+<g>
+<rect x="48" y="154" width="346" height="188" rx="22" fill="url(#panel)" stroke="#fff" stroke-opacity=".09"/>
+<rect x="427" y="154" width="346" height="188" rx="22" fill="url(#panel)" stroke="#fff" stroke-opacity=".09"/>
+<rect x="806" y="154" width="346" height="188" rx="22" fill="url(#panel)" stroke="#fff" stroke-opacity=".09"/>
+</g>
+
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+<text x="72" y="194" fill="#f0f0f2" font-size="20" font-weight="700">Research</text>
+<text x="451" y="194" fill="#f0f0f2" font-size="20" font-weight="700">Engineering</text>
+<text x="830" y="194" fill="#f0f0f2" font-size="20" font-weight="700">Systems</text>
+</g>
+
+<g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#9a9ba2">
+  <text x="72" y="232">model behavior</text>
+  <text x="72" y="259">internal representations</text>
+  <text x="72" y="286">recurrent computation</text>
+  <text x="72" y="313">fine-tuning + ablations</text>
+
+  <text x="451" y="232">inference + quantization</text>
+  <text x="451" y="259">GPU-aware pipelines</text>
+  <text x="451" y="286">observability</text>
+  <text x="451" y="313">deployment</text>
+
+  <text x="830" y="232">backends + interfaces</text>
+  <text x="830" y="259">persistence</text>
+  <text x="830" y="286">local-first systems</text>
+  <text x="830" y="313">product architecture</text>
+</g>
+
+<g fill="url(#accent)">
+  <circle cx="374" cy="180" r="3"/><circle cx="753" cy="180" r="3"/><circle cx="1132" cy="180" r="3"/>
+</g>
+</svg>

@@ -1,7 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210">
-<rect width="1200" height="210" rx="24" fill="#080809"/>
-<rect x="1" y="1" width="1198" height="208" rx="23" fill="none" stroke="#fff" stroke-opacity=".10"/>
-<text x="48" y="54" fill="#696a72" font-family="monospace" font-size="10" letter-spacing="1.8">06 / ABOUT</text>
-<text x="48" y="118" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="39" font-weight="700" letter-spacing="-1.8">Build the model. Build the system. Understand both.</text>
-<text x="48" y="164" fill="#8f9097" font-family="Arial,Helvetica,sans-serif" font-size="15">Researching what happens inside intelligent systems and engineering what happens around them.</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="230" viewBox="0 0 1200 230">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b0c0f"/>
+    <stop offset="1" stop-color="#060607"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111319"/>
+    <stop offset="1" stop-color="#0a0b0e"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 110) rotate(90) scale(220)">
+    <stop stop-color="#7dd3fc" stop-opacity=".10"/>
+    <stop offset=".45" stop-color="#a78bfa" stop-opacity=".045"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#7dd3fc" stop-opacity=".95"/>
+    <stop offset=".52" stop-color="#a78bfa" stop-opacity=".82"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity=".75"/>
+  </linearGradient>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+</defs>
+
+
+<rect width="1200" height="230" rx="30" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="228" rx="29" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+<rect width="1200" height="230" rx="30" fill="url(#glow)"/>
+<g stroke="#fff" stroke-opacity=".022">
+  <path d="M0 60H1200"/><path d="M0 120H1200"/><path d="M0 180H1200"/>
+  <path d="M60 0V230"/><path d="M120 0V230"/><path d="M180 0V230"/><path d="M240 0V230"/><path d="M300 0V230"/><path d="M360 0V230"/><path d="M420 0V230"/><path d="M480 0V230"/><path d="M540 0V230"/><path d="M600 0V230"/><path d="M660 0V230"/><path d="M720 0V230"/><path d="M780 0V230"/><path d="M840 0V230"/><path d="M900 0V230"/><path d="M960 0V230"/><path d="M1020 0V230"/><path d="M1080 0V230"/><path d="M1140 0V230"/>
+</g>
+
+<text x="600" y="86" text-anchor="middle" fill="#f3f3f5" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="700" letter-spacing="-1.2">Build the model. Build the system. Understand both.</text>
+<text x="600" y="128" text-anchor="middle" fill="#92939a" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">I research what happens inside intelligent systems and engineer what happens around them.</text>
+
+<rect x="398" y="162" width="404" height="38" rx="19" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".08"/>
+<text x="600" y="186" text-anchor="middle" fill="#a9aab1" font-family="ui-monospace,Consolas,monospace" font-size="10" letter-spacing="1.5">PORTFOLIO  ·  HUGGING FACE  ·  GITHUB</text>
 </svg>

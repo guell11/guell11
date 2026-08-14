@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360">
+
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0b0c0f"/>
+    <stop offset="1" stop-color="#060607"/>
+  </linearGradient>
+  <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#111319"/>
+    <stop offset="1" stop-color="#0a0b0e"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(920 110) rotate(90) scale(220)">
+    <stop stop-color="#7dd3fc" stop-opacity=".10"/>
+    <stop offset=".45" stop-color="#a78bfa" stop-opacity=".045"/>
+    <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+    <stop stop-color="#7dd3fc" stop-opacity=".95"/>
+    <stop offset=".52" stop-color="#a78bfa" stop-opacity=".82"/>
+    <stop offset="1" stop-color="#f472b6" stop-opacity=".75"/>
+  </linearGradient>
+  <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="16"/>
+  </filter>
+</defs>
+
+
+<rect width="1200" height="360" rx="30" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="358" rx="29" fill="none" stroke="#ffffff" stroke-opacity=".10"/>
+<rect width="1200" height="360" rx="30" fill="url(#glow)"/>
+<g stroke="#fff" stroke-opacity=".022">
+  <path d="M0 60H1200"/><path d="M0 120H1200"/><path d="M0 180H1200"/><path d="M0 240H1200"/><path d="M0 300H1200"/>
+  <path d="M60 0V360"/><path d="M120 0V360"/><path d="M180 0V360"/><path d="M240 0V360"/><path d="M300 0V360"/><path d="M360 0V360"/><path d="M420 0V360"/><path d="M480 0V360"/><path d="M540 0V360"/><path d="M600 0V360"/><path d="M660 0V360"/><path d="M720 0V360"/><path d="M780 0V360"/><path d="M840 0V360"/><path d="M900 0V360"/><path d="M960 0V360"/><path d="M1020 0V360"/><path d="M1080 0V360"/><path d="M1140 0V360"/>
+</g>
+
+<text x="48" y="48" fill="#686a73" font-family="ui-monospace,Consolas,monospace" font-size="11" letter-spacing="2">04 / HOW I BUILD</text>
+<line x1="48" y1="68" x2="1152" y2="68" stroke="#fff" stroke-opacity=".08"/>
+
+<g font-family="ui-monospace,Consolas,monospace" font-size="10">
+  <rect x="70" y="104" width="206" height="54" rx="16" fill="url(#panel)" stroke="#fff" stroke-opacity=".10"/>
+  <rect x="336" y="104" width="206" height="54" rx="16" fill="url(#panel)" stroke="#fff" stroke-opacity=".10"/>
+  <rect x="602" y="104" width="206" height="54" rx="16" fill="url(#panel)" stroke="#fff" stroke-opacity=".10"/>
+  <rect x="868" y="104" width="206" height="54" rx="16" fill="url(#panel)" stroke="#fff" stroke-opacity=".10"/>
+  <text x="173" y="136" text-anchor="middle" fill="#f0f0f2">01 / MODEL</text>
+  <text x="439" y="136" text-anchor="middle" fill="#f0f0f2">02 / INFERENCE</text>
+  <text x="705" y="136" text-anchor="middle" fill="#f0f0f2">03 / SYSTEM</text>
+  <text x="971" y="136" text-anchor="middle" fill="#f0f0f2">04 / PRODUCT</text>
+</g>
+
+<g stroke="url(#accent)" stroke-width="2" fill="none" opacity=".65">
+  <path d="M276 131H324"/><path d="M542 131H590"/><path d="M808 131H856"/>
+</g>
+<g fill="#aeb0b7">
+  <path d="M324 131l-7-5v10z"/><path d="M590 131l-7-5v10z"/><path d="M856 131l-7-5v10z"/>
+</g>
+
+<g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="13" fill="#93949b">
+  <text x="173" y="198" text-anchor="middle">architecture · fine-tuning</text>
+  <text x="173" y="220" text-anchor="middle">latent compute · multimodal</text>
+
+  <text x="439" y="198" text-anchor="middle">quantization · local deploy</text>
+  <text x="439" y="220" text-anchor="middle">GPU memory · retrieval</text>
+
+  <text x="705" y="198" text-anchor="middle">backend · interfaces</text>
+  <text x="705" y="220" text-anchor="middle">observability · persistence</text>
+
+  <text x="971" y="198" text-anchor="middle">coherent UX</text>
+  <text x="971" y="220" text-anchor="middle">something people can use</text>
+</g>
+
+<rect x="70" y="264" width="1004" height="50" rx="16" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".08"/>
+<rect x="70" y="264" width="5" height="50" rx="2.5" fill="url(#accent)"/>
+<text x="94" y="295" fill="#b4b5bc" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15">I’m most interested where model architecture meets software architecture.</text>
+</svg>

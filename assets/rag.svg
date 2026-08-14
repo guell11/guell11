@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<rect width="1200" height="320" rx="24" fill="#080809"/>
+<rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#fff" stroke-opacity=".10"/>
+<text x="48" y="48" fill="#676870" font-family="monospace" font-size="10" letter-spacing="1.6">SELECTED / RETRIEVAL AI</text>
+<text x="48" y="132" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700" letter-spacing="-2">IA RAG Nexa</text>
+<text x="48" y="177" fill="#9899a0" font-family="Arial,Helvetica,sans-serif" font-size="15">Retrieval-augmented AI systems connecting language models to external knowledge.</text>
+<text x="48" y="204" fill="#9899a0" font-family="Arial,Helvetica,sans-serif" font-size="15">Focused on retrieval pipelines, grounding and practical application architecture.</text>
+<rect x="48" y="246" width="58" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="77.0" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">RAG</text><rect x="114" y="246" width="58" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="143.0" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">LLM</text><rect x="180" y="246" width="88.8" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="224.4" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">RETRIEVAL</text><rect x="276.8" y="246" width="67.2" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="310.40000000000003" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">PYTHON</text>
+
+        <g transform="translate(900 150)" stroke="#fff" fill="#080809">
+          <circle cx="-72" cy="-30" r="12" stroke-opacity=".28"/>
+          <circle cx="0" cy="-72" r="12" stroke-opacity=".18"/>
+          <circle cx="68" cy="-18" r="12" stroke-opacity=".30"/>
+          <circle cx="36" cy="64" r="12" stroke-opacity=".18"/>
+          <circle cx="-52" cy="60" r="12" stroke-opacity=".24"/>
+          <circle cx="0" cy="0" r="16" stroke-opacity=".45"/>
+          <path d="M-62 -25L-14 -5M4 -56L2 -16M53 -14L16 -3M30 49L10 14M-40 50L-10 12" stroke-opacity=".13"/>
+        </g>
+<text x="1090" y="286" text-anchor="end" fill="#6f7077" font-family="monospace" font-size="10">OPEN REPOSITORY  ↗</text>
+</svg>

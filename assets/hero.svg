@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="460" viewBox="0 0 1200 460">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop stop-color="#0b0b0d"/><stop offset="1" stop-color="#050506"/>
+  </linearGradient>
+  <radialGradient id="r" cx="80%" cy="40%" r="55%">
+    <stop stop-color="#ffffff" stop-opacity=".07"/><stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+  </radialGradient>
+</defs>
+<rect width="1200" height="460" rx="28" fill="url(#g)"/>
+<rect x="1" y="1" width="1198" height="458" rx="27" fill="none" stroke="#fff" stroke-opacity=".11"/>
+<rect width="1200" height="460" rx="28" fill="url(#r)"/>
+
+<g stroke="#fff" stroke-opacity=".035">
+  <path d="M0 92H1200M0 184H1200M0 276H1200M0 368H1200"/>
+  <path d="M120 0V460M240 0V460M360 0V460M480 0V460M600 0V460M720 0V460M840 0V460M960 0V460M1080 0V460"/>
+</g>
+
+<text x="56" y="62" fill="#6e7078" font-family="monospace" font-size="12" letter-spacing="2.2">01 / INTELLIGENCE × SOFTWARE</text>
+<line x1="56" y1="82" x2="540" y2="82" stroke="#fff" stroke-opacity=".12"/>
+
+<text x="56" y="168" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="700" letter-spacing="-4">I build AI</text>
+<text x="56" y="240" fill="#73747c" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="700" letter-spacing="-4">from weights</text>
+<text x="56" y="312" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="70" font-weight="700" letter-spacing="-4">to systems.</text>
+
+<text x="58" y="360" fill="#9a9ba2" font-family="Arial,Helvetica,sans-serif" font-size="15">
+  AI Engineer · Researcher · Model Engineering · Local AI · Experimental Software
+</text>
+
+<g transform="translate(965 213)">
+  <circle r="122" fill="none" stroke="#fff" stroke-opacity=".08"/>
+  <circle r="88" fill="none" stroke="#fff" stroke-opacity=".11"/>
+  <circle r="54" fill="none" stroke="#fff" stroke-opacity=".13"/>
+  <rect x="-24" y="-24" width="48" height="48" rx="12" fill="#09090a" stroke="#fff" stroke-opacity=".16"/>
+  <text x="0" y="4" text-anchor="middle" fill="#ececef" font-family="monospace" font-size="11">MPR</text>
+  <circle cx="-81" cy="-54" r="3" fill="#fff" fill-opacity=".75"/>
+  <circle cx="93" cy="22" r="2.5" fill="#fff" fill-opacity=".42"/>
+  <circle cx="-56" cy="105" r="2.5" fill="#fff" fill-opacity=".5"/>
+  <path d="M-81 -54C-27 -101 64 -70 93 22" fill="none" stroke="#fff" stroke-opacity=".09" stroke-dasharray="4 7"/>
+</g>
+
+<text x="56" y="420" fill="#5f6067" font-family="monospace" font-size="10" letter-spacing="1.5">MIGUEL PENHA REIS  /  BRAZIL  /  BUILDING ACROSS RESEARCH + ENGINEERING</text>
+</svg>

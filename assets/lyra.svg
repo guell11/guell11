@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<rect width="1200" height="320" rx="24" fill="#080809"/>
+<rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#fff" stroke-opacity=".10"/>
+<text x="48" y="48" fill="#676870" font-family="monospace" font-size="10" letter-spacing="1.6">FEATURED / CREATIVE AI</text>
+<text x="48" y="132" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700" letter-spacing="-2">Lyra Engine</text>
+<text x="48" y="177" fill="#9899a0" font-family="Arial,Helvetica,sans-serif" font-size="15">A fully local AI music production environment.</text>
+<text x="48" y="204" fill="#9899a0" font-family="Arial,Helvetica,sans-serif" font-size="15">Music generation, local language models and memory-aware GPU orchestration.</text>
+<rect x="48" y="246" width="81.6" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="88.8" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">ACE-STEP</text><rect x="137.6" y="246" width="67.2" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="171.2" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">OLLAMA</text><rect x="212.8" y="246" width="60.0" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="242.8" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">GEMMA</text><rect x="280.8" y="246" width="58" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="309.8" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">QWEN</text><rect x="346.8" y="246" width="60.0" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="376.8" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">FLASK</text>
+
+        <g transform="translate(810 150)" stroke="#fff" stroke-linecap="round">
+          <path d="M0 0v-24M20 0v-50M40 0v-78M60 0v-42M80 0v-92M100 0v-58M120 0v-34M140 0v-70M160 0v-44M180 0v-88" stroke-opacity=".28"/>
+          <path d="M0 0v24M20 0v50M40 0v78M60 0v42M80 0v92M100 0v58M120 0v34M140 0v70M160 0v44M180 0v88" stroke-opacity=".12"/>
+        </g>
+<text x="1090" y="286" text-anchor="end" fill="#6f7077" font-family="monospace" font-size="10">OPEN REPOSITORY  ↗</text>
+</svg>

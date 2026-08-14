@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="210" viewBox="0 0 1200 210">
+<rect width="1200" height="210" rx="24" fill="#080809"/>
+<rect x="1" y="1" width="1198" height="208" rx="23" fill="none" stroke="#fff" stroke-opacity=".10"/>
+<text x="48" y="54" fill="#696a72" font-family="monospace" font-size="10" letter-spacing="1.8">06 / ABOUT</text>
+<text x="48" y="118" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="39" font-weight="700" letter-spacing="-1.8">Build the model. Build the system. Understand both.</text>
+<text x="48" y="164" fill="#8f9097" font-family="Arial,Helvetica,sans-serif" font-size="15">Researching what happens inside intelligent systems and engineering what happens around them.</text>
+</svg>

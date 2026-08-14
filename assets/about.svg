@@ -1,1 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="250" viewBox="0 0 1200 250">
+<rect width="1200" height="250" rx="24" fill="#080809"/>
+<rect x="1" y="1" width="1198" height="248" rx="23" fill="none" stroke="#fff" stroke-opacity=".10"/>
+<text x="48" y="52" fill="#686970" font-family="monospace" font-size="11" letter-spacing="2">02 / ABOUT</text>
+<text x="48" y="105" fill="#f2f2f4" font-family="Arial,Helvetica,sans-serif" font-size="26" font-weight="700">Miguel Penha Reis</text>
+<text x="48" y="145" fill="#92939a" font-family="Arial,Helvetica,sans-serif" font-size="16">AI engineer and researcher working across language models, latent reasoning,</text>
+<text x="48" y="174" fill="#92939a" font-family="Arial,Helvetica,sans-serif" font-size="16">multimodal AI, local inference and complete software systems.</text>
 
+<line x1="665" y1="38" x2="665" y2="212" stroke="#fff" stroke-opacity=".08"/>
+<text x="706" y="66" fill="#6d6e75" font-family="monospace" font-size="10" letter-spacing="1.4">CURRENT FIELD</text>
+<text x="706" y="108" fill="#d9d9dd" font-family="Arial,Helvetica,sans-serif" font-size="15">LLMs  ·  Latent Reasoning  ·  Multimodal AI</text>
+<text x="706" y="142" fill="#d9d9dd" font-family="Arial,Helvetica,sans-serif" font-size="15">Local AI  ·  Retrieval  ·  AI Infrastructure</text>
+<text x="706" y="190" fill="#8a8b92" font-family="Arial,Helvetica,sans-serif" font-size="14">Build the model. Build the system. Understand both.</text>
+</svg>

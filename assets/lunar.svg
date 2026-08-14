@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<rect width="1200" height="320" rx="24" fill="#080809"/>
+<rect x="1" y="1" width="1198" height="318" rx="23" fill="none" stroke="#fff" stroke-opacity=".10"/>
+<text x="48" y="48" fill="#676870" font-family="monospace" font-size="10" letter-spacing="1.6">FEATURED / EDUCATION + AI</text>
+<text x="48" y="132" fill="#f4f4f5" font-family="Arial,Helvetica,sans-serif" font-size="44" font-weight="700" letter-spacing="-2">Projeto Lunar</text>
+<text x="48" y="177" fill="#9899a0" font-family="Arial,Helvetica,sans-serif" font-size="15">An AI-powered educational ecosystem connecting students, teachers and families.</text>
+<text x="48" y="204" fill="#9899a0" font-family="Arial,Helvetica,sans-serif" font-size="15">Tutoring, content generation, dashboards, gamification, media and school workflows.</text>
+<rect x="48" y="246" width="60.0" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="78.0" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">FLASK</text><rect x="116.0" y="246" width="67.2" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="149.6" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">GEMINI</text><rect x="191.2" y="246" width="96.0" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="239.2" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">SQLALCHEMY</text><rect x="295.2" y="246" width="88.8" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="339.59999999999997" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">SOCKET.IO</text><rect x="392.0" y="246" width="81.6" height="28" rx="14" fill="#fff" fill-opacity=".025" stroke="#fff" stroke-opacity=".10"/><text x="432.8" y="264" text-anchor="middle" fill="#898a91" font-family="monospace" font-size="9">EDGE-TTS</text>
+
+        <g transform="translate(900 150)" fill="none" stroke="#fff">
+          <circle r="74" stroke-opacity=".12"/>
+          <path d="M-24 -74C29 -61 58 -15 48 28C38 73 -10 91 -52 69C-17 62 8 32 6 -2C3 -34 -9 -58 -24 -74Z" stroke-opacity=".34"/>
+          <circle cx="67" cy="-54" r="3" fill="#fff" fill-opacity=".55" stroke="none"/>
+          <circle cx="-70" cy="37" r="2" fill="#fff" fill-opacity=".35" stroke="none"/>
+        </g>
+<text x="1090" y="286" text-anchor="end" fill="#6f7077" font-family="monospace" font-size="10">OPEN REPOSITORY  ↗</text>
+</svg>

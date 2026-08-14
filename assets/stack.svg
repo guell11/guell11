@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="180" viewBox="0 0 1200 180">
+<rect width="1200" height="180" rx="24" fill="#080809"/>
+<rect x="1" y="1" width="1198" height="178" rx="23" fill="none" stroke="#fff" stroke-opacity=".10"/>
+<text x="48" y="48" fill="#696a72" font-family="monospace" font-size="10" letter-spacing="1.8">05 / STACK</text>
+<text x="48" y="104" fill="#f0f0f2" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="700">Python  ·  PyTorch  ·  Transformers  ·  FastAPI  ·  Flask  ·  React  ·  Three.js  ·  SQLite  ·  CUDA</text>
+<text x="48" y="140" fill="#8b8c93" font-family="Arial,Helvetica,sans-serif" font-size="15">Gemma  ·  Qwen  ·  GGUF  ·  llama.cpp  ·  RAG  ·  Local AI  ·  Multimodal systems  ·  Model engineering</text>
+</svg>

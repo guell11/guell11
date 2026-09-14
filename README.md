@@ -69,7 +69,7 @@
 <img src="./assets/signal.svg" width="100%" alt="Current signal">
 <br><br>
 
-<a href="https://guell11.github.io/portifolio/">
+<a href="https://guell11.github.io/portfolio">
 <img src="./assets/footer.svg" width="100%" alt="Engineering philosophy">
 </a>
 

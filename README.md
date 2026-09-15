@@ -1,12 +1,12 @@
 <div align="center">
 
-<a href="https://guell11.github.io/portifolio/">
+<a href="https://guell11.github.io/portfolio/">
 <img src="./assets/hero.svg" width="100%" alt="Miguel Penha Reis">
 </a>
 
 <br><br>
 
-<a href="https://guell11.github.io/portifolio/">
+<a href="https://guell11.github.io/portfolio/">
 <img src="https://img.shields.io/badge/PORTFOLIO-OPEN-f4f4f5?style=for-the-badge&labelColor=111318&color=f4f4f5">
 </a>
 &nbsp;
@@ -75,7 +75,7 @@
 
 <br><br>
 
-<a href="https://guell11.github.io/portifolio/"><b>Portfolio</b></a>
+<a href="https://guell11.github.io/portfolio/"><b>Portfolio</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
 <a href="https://huggingface.co/guell00"><b>Hugging Face</b></a>
 &nbsp;&nbsp;·&nbsp;&nbsp;
